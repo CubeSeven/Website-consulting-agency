@@ -1,0 +1,193 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    /* font-size */
+    p {
+        font-size: 9.2px;
+    }
+
+    h1,
+    h2 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 18.4px;
+    }
+
+    .headline {
+        letter-spacing: 2px;
+        line-height: 31px;
+        margin-bottom: 15.3px;
+    }
+
+    .sub-headline {
+        line-height: 13px;
+        margin-bottom: 15.3px;
+    }
+
+    .desription {
+        line-height: 14.8px;
+    }
+
+    .desription h1 {
+        letter-spacing: 1.3px;
+        line-height: 30px;
+    }
+
+    .card p {
+        line-height: 14.8px;
+        margin-bottom: 5%;
+    }
+
+    .card h2 {
+        letter-spacing: 0.8px;
+        margin-bottom: 18px;
+    }
+
+    .info h2 {
+        line-height: 31px;
+    }
+
+
+    /* padding */
+
+    .nav-desktop {
+        padding: 12px 82px 12px 97px;
+    }
+
+    .nav-desktop .nav-desktop-item a {
+        padding-right: 15.3px;
+    }
+
+    .btn {
+        padding: 7px 18px;
+    }
+
+    #card-dark {
+        padding: 0 5%;
+    }
+
+    .card {
+        min-height: 276.5px;
+    }
+
+    .card p {
+        padding: 0 7.5%;
+    }
+
+    input[type=submit] {
+        padding: 3.5px 18px;
+    }
+
+    input::placeholder {
+        padding: 0 4.8%;
+    }
+
+    .footer {
+        padding: 36px 102.5px 33px 102.5px;
+        min-height: 327.5px;
+    }
+
+    .contact-info {
+        padding-right: 57.6px;
+    }
+
+    .social-media li:not(:last-child) {
+        padding-right: 32px;
+    }
+
+
+    /* margin */
+
+    .hero-container {
+        margin: 0 102.5px;
+    }
+
+    .hero .btn-light {
+        margin-right: 15.3px;
+    }
+
+    .services-row {
+        margin: 0 -2.5px;
+    }
+
+    .card img {
+        min-width: 92px;
+        margin-bottom: 7.6px;
+        margin-top: 10px;
+    }
+
+    form input {
+        margin-right: -2px;
+    }
+
+    input[type=email] {
+        margin-top: 18px;
+        height: 31px;
+    }
+
+    .row {
+        margin-bottom: 22px;
+    }
+
+    .contact-info a {
+        margin-bottom: 19px;
+    }
+
+    .contact-info li:not(:last-child) {
+        margin-bottom: 13px;
+    }
+
+    .badge img {
+        margin-top: 76px;
+    }
+
+    .underline {
+        margin-top: 18px;
+    }
+
+    .twitter {
+        margin-top: 18px;
+    }
+
+    input[type=email] {
+        width: 187px;
+    }
+
+    .affiliates h2 {
+        width: 100%;
+        min-height: 131px;
+    }
+
+    .brands {
+        width: 553,5px;
+    }
+
+    .brands img {
+        max-width: 128px;
+    }
+
+    .column {
+        min-width: 205px;
+    }
+
+    .social-media li {
+        max-width: 13px;
+    }
+
+    .hero {
+        min-height: 409.5px;
+    }
+
+    .about-us {
+        min-height: 256;
+    }
+
+    .newsletter {
+        min-height: 287px;
+    }
+}

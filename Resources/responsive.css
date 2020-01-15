@@ -1,0 +1,606 @@
+/* ------------------------------- navigation menu------------------------------- */
+@media screen and (max-width: 1200px) {
+    .nav-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .nav-mobile{
+        display: none;
+    }
+}
+
+
+/* ---------------------------- //navigation menu --------------------------- */
+
+/* --------------------------------- columns -------------------------------- */
+
+/* Responsive columns */
+@media screen and (max-width: 876px) {
+    .services-column {
+      display: block;
+    }
+    #c1, #c2, #c3{
+        width: 100%;
+    }
+  }
+
+
+
+/* ----------------------------- Computer screen ---------------------------- */
+/* Scale down all elements by 20% of the initial values */
+/* font size, letter spacing, line height, padding, margin, width, height */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1900px)
+  /* and (-webkit-min-device-pixel-ratio: 1)  */
+  { 
+
+    /* font-size */
+    p {
+        font-size: 14.4px;
+    }
+
+    h1,
+    h2 {
+        font-size: 42.4px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .headline {
+        letter-spacing: 3.39px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .sub-headline {
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+    .desription {
+        line-height: 23.2px;
+    }
+
+    .desription h1 {
+        letter-spacing: 1.72px;
+        line-height: 48px;
+    }
+
+    .card p {
+        line-height: 23.2px;
+        margin-bottom: 8%;
+    }
+
+    .card h2 {
+        letter-spacing: 1.44px;
+        margin-bottom: 28px;
+    }
+
+    .info h2 {
+        line-height: 48px;
+    }
+
+
+    /* padding */
+
+    .nav-desktop {
+        padding: 24px 128px 24px 152px;
+    }
+
+    .nav-desktop .nav-desktop-item a {
+        padding-right: 24px;
+    }
+
+    .btn {
+        padding: 11.2px 28px;
+    }
+
+    #card-dark {
+        padding: 0 8%;
+    }
+
+    .card {
+        min-height: 432px;
+    }
+
+    .card p {
+        padding: 0 12%;
+    }
+
+    input::placeholder {
+        padding: 0 7.68%;
+    }
+
+    .footer {
+        padding: 56px 160px 52px 160px;
+        min-height: 409.6px;
+    }
+
+    .contact-info {
+        padding-right: 72px;
+    }
+
+    .social-media li:not(:last-child) {
+        padding-right: 40px;
+    }
+
+
+    /* margin */
+
+    .hero .btn-light {
+        margin-right: 24px;
+    }
+
+    .services-row {
+        margin: 0 -4px;
+    }
+
+    .card img {
+        min-width: 144px;
+        margin-bottom: 12px;
+        margin-top: 16px;
+    }
+
+    form input {
+        margin-right: -3.2px;
+    }
+
+
+    .row {
+        margin-bottom: 34.4px;
+    }
+
+    .contact-info a {
+        margin-bottom: 29.6px;
+    }
+
+    .contact-info li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .badge img {
+        margin-top: 118.4px;
+    }
+
+    .underline {
+        margin-top: 28px;
+    }
+
+    .twitter {
+        margin-top: 28px;
+    }
+
+
+    .brands {
+        width: 865px;
+    }
+
+
+    .column {
+        min-width: 320px;
+    }
+
+    .social-media li {
+        max-width: 20px;
+    }
+
+
+    .about-us {
+        min-height: 400;
+    }
+
+}
+
+
+/* ------------------------------ Tablet Screen ----------------------------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1200px)
+  /* and (-webkit-min-device-pixel-ratio: 2)  */
+  {
+
+ /* font-size */
+    p {
+        font-size: 14px;
+    }
+
+    h1,
+    h2 {
+        font-size: 33.92px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .headline {
+        letter-spacing: 2.7px;
+        line-height: 38.4px;
+        margin-bottom: 19.2;
+    }  
+
+    .headline h1{
+        font-size: 40px;
+    }
+
+    .sub-headline {
+        line-height: 16px;
+        margin-bottom: 19.2px;
+    }
+
+    .desription {
+        line-height: 18.56px;
+        width: 90%;
+
+    }
+
+    .desription h1 {
+        letter-spacing: 1.72px;
+        line-height: 38.4px;
+    }
+
+    .card p {
+        line-height: 18.56px;
+        margin-bottom: 6.4%;
+    }
+
+    .card h2 {
+        letter-spacing: 1.152px;
+        margin-bottom: 22.4px;
+    }
+
+    .info h2 {
+        line-height: 38.4px;
+    }
+
+    .brands-title{
+        width: 100%;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
+    .affiliates h2{
+        font-size: 30px;
+    }
+
+    .nav-desktop {
+        padding: 19.2px 102.4px 19.2px 121.6px;
+    }
+
+    .nav-desktop .nav-desktop-item a {
+        padding-right: 19.2px;
+    }
+
+    .btn {
+        padding: 8.96px 22.4px;
+    }
+
+    #card-light{
+        padding: 10px 0 40px 0;
+    }
+
+    #card-dark {
+        padding: 0 6.4%;
+        padding: 10px 0 40px 0;
+    }
+
+    .card {
+        height: 445.6px;
+    }
+
+    .card p {
+        padding: 0 20.6%;
+    }
+
+
+    input::placeholder {
+        padding: 0 6%;
+    }
+
+    .footer {
+        padding: 44.8px 5% 41.6px 5%;
+        min-height: 409.6px;
+    }
+
+    .contact-info {
+        padding-right: 72px;
+    }
+
+    .social-media li:not(:last-child) {
+        padding-right: 40px;
+    }
+
+
+    /* margin */
+    .hero .btn-light {
+        margin-right: 19.2px;
+    }
+
+    .services-row {
+        margin: 0 -3.2px;
+    }
+
+    .card img {
+        min-width: 115px;
+        margin-bottom: 9.6px;
+        margin-top: 12.8px;
+    }
+
+    form input {
+        margin-right: -2.5px;
+    }
+
+    .row {
+        margin-bottom: 27.5px;
+    }
+
+    .contact-info a {
+        margin-bottom: 23.6px;
+    }
+
+    .contact-info li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .badge img {
+        margin-top: 95px;
+    }
+
+    .underline {
+        margin-top: 22.4px;
+    }
+
+    .twitter {
+        margin-top: 22.4px;
+    }
+
+    .brands {
+        width: 692px;
+    }
+
+
+    .column {
+        min-width: 256px;
+    }
+
+    .social-media li {
+        max-width: 16px;
+    }
+
+    .hero {
+        min-height: 650px;
+    }
+
+    .about-us {
+        min-height: 420px;
+    }
+
+}
+/* ------------------------------ Mobile screen ----------------------------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 767px)
+  /* and (-webkit-min-device-pixel-ratio: 3)  */
+  {
+
+    /* font-size */
+    p {
+        font-size: 12px;
+    }
+
+    h1,
+    h2 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 18.4px;
+    }
+
+    .headline {
+        letter-spacing: 2px;
+        line-height: 31px;
+        margin-bottom: 15.3px;
+    }
+
+    .headline h1{
+        font-size: 25px
+    }  
+
+    .sub-headline {
+        margin-bottom: 15.3px;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .desription {
+        width: 90%;
+        line-height: 14.8px;
+    }
+
+    .desription h1 {
+        letter-spacing: 1.3px;
+        line-height: 30px;
+    }
+
+    .card p {
+        line-height: 14.8px;
+        margin-bottom: 5%;
+        padding: 0 7.5%;
+    }
+
+    .card h2 {
+        letter-spacing: 0.8px;
+        margin-bottom: 18px;
+    }
+
+    .info h2 {
+        line-height: 31px;
+    }
+
+    .hero-container .btn-light{
+        margin-bottom: 10px;
+    }
+
+    .nav-desktop {
+        padding: 12px 82px 12px 97px;
+    }
+
+    .nav-desktop .nav-desktop-item a {
+        padding-right: 15.3px;
+    }
+
+    .btn {
+        padding: 7px 18px;
+    }
+
+    #card-light{
+        padding: 10px 0 40px 0;
+    }
+
+    #card-dark {
+        padding: 0 6.4%;
+        padding: 10px 0 40px 0;
+    }
+
+    .card {
+        height: 376.5px;
+    }
+
+    input::placeholder {
+        padding: 0 4.8%;
+    }
+
+    input[type=email]{
+        width: 219px;
+        height: 55.4px;
+    }
+
+    input::placeholder {
+        padding-left: 12px;
+        font-size: 16px;
+    }
+
+    input[type=submit] {
+        height: 55.4px;
+        padding: 11px 21px;
+        font-size: 10px;
+    }
+    .footer {
+        padding: 36px 1% 33px 1%;
+        min-height: 327.5px;
+    }
+
+    .contact-info {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .social-media li:not(:last-child) {
+        padding-right: 32px;
+    }
+
+    .hero .btn-light {
+        margin-right: 15.3px;
+    }
+    .services-row {
+        margin: 0 -2.5px;
+    }
+    .card img {
+        min-width: 92px;
+        margin-bottom: 7.6px;
+        margin-top: 10px;
+    }
+    .brands img{
+        opacity: 0.7;
+        padding: 0 30px;
+    }
+
+    .row {
+        margin-bottom: 22px;
+    }
+
+    .contact-info a {
+        margin-bottom: 19px;
+    }
+
+    .contact-info li:not(:last-child) {
+        margin-bottom: 13px;
+    }
+    .badge{
+        justify-content: center;
+    }
+
+    .badge img {
+        margin-top: 76px;
+    }
+
+    .underline {
+        margin-top: 18px;
+        justify-content: center;
+    }
+
+    .twitter {
+        margin-top: 18px;
+        text-align: center;
+    }
+
+
+    .brands {
+        width: 553,5px;
+    }
+
+    .brands-title{
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .affiliates h2{
+        font-size: 20px;
+    }
+
+    .column {
+        min-width: 205px;
+    }
+
+    .hero {
+        min-height: 550px;
+    }
+
+    .social-media{
+        margin-top: 5%;
+    }
+
+
+    .about-us {
+        min-height: 256;
+    }
+
+    .newsletter {
+        min-height: 560px;
+    }
+
+    .nav-mobile-list{
+        font-size:45px;
+    }
+
+    .nav-mobile-link{
+        font-size: 15px;
+    }
+
+    #logo-in-menu{
+        margin-top: 150%;
+    }
+
+}
+
